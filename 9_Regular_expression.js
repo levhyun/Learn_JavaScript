@@ -32,5 +32,5 @@ log("AbDaGaA".match(ig)); // g + i
 // 캡쳐
 var pattern = /(\w+)\s(\w+)/;
 var str = "coding everybody";
-var result = str.replace(re, "$2, $1");
+var result = str.replace(pattern, "$2, $1");
 log(result);
